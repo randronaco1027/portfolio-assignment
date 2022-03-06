@@ -25,6 +25,7 @@ header h1 {
     background-color: white;
     padding: 5px 10px 5px 40px;
     border: 2px solid black;
+    border-left: none;
 }
 
 header a {
@@ -93,7 +94,7 @@ body {
 }
 
 .avatar {
-    width: 10%;
+    width: 20%;
     float: left;
     border-left: 5px solid black;
     padding-left: 10px;
@@ -115,10 +116,6 @@ body {
     margin-right: 5px;
     display: inline-block;
     flex-direction: row;
-}
-
-.smaller {
-    border: none;
 }
 
 img {
