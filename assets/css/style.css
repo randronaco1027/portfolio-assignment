@@ -101,22 +101,41 @@ body {
     position: relative;
 }
 
+#about .avatar:hover {
+    opacity: 1;
+}
+
 .container {
     position: relative;
 }
 
+.smaller .container{
+    border: none;
+}
+
+.smaller {
+    display: flex;
+    width: 70%;
+    padding: 0;
+} 
+
 .main-pic {
     border: 3px solid black;
-    width: 86.5%;   
+    width: 100%;   
 }
 
 .secondary-pic {
     border: 3px solid black;
-    width: 28%;
+    width: 100%;
     margin-right: 5px;
-    display: inline-block;
-    flex-direction: row;
+    /* display: inline-block; */
+    /* flex-direction: row; */
 }
+
+/* .content section {
+    flex-direction: row;
+}*/
+
 
 img {
     transition: .5s ease;
@@ -141,6 +160,11 @@ img {
     color: white;
     font-size: 1.5vw;
 }
+
+.smaller .img-text {
+    width: 10vw;
+}
+
 
 .content ul {
     display: flex;
@@ -188,5 +212,24 @@ footer {
 
     .img-text {
         width: 20%;
+    }
+
+    header {
+        padding: 10px 0 0 0;
+        
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        border-right: none;
+    }
+
+    header nav   {
+        padding: 10px;
+        justify-content: space-between;
+        text-align: center;
+        margin: auto;
     }
 }
