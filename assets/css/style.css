@@ -5,11 +5,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-:root {
-    --primary-color: blue;
-    --secondary-color: white;
-}
-
+/* header properties */
 header {
     background-color: rgb(139, 139, 138);
     display: flex;
@@ -69,6 +65,7 @@ header nav ul li a:hover {
     border: none;
 }
 
+/* body formatting */
 body {
     background-color: lightgray;
 }
@@ -93,6 +90,7 @@ body {
     border-left: 5px solid black;
 }
 
+/* avatar properties */
 .avatar {
     width: 20%;
     float: left;
@@ -119,6 +117,7 @@ body {
     padding: 0;
 } 
 
+/* image properties */
 .main-pic {
     border: 3px solid black;
     width: 100%;   
@@ -128,14 +127,7 @@ body {
     border: 3px solid black;
     width: 100%;
     margin-right: 5px;
-    /* display: inline-block; */
-    /* flex-direction: row; */
 }
-
-/* .content section {
-    flex-direction: row;
-}*/
-
 
 img {
     transition: .5s ease;
@@ -143,10 +135,6 @@ img {
 
 .content img:hover {
     opacity: 0.5;
-}
-
-.avatar:hover {
-    opacity: 1;
 }
 
 .img-text {
@@ -165,7 +153,7 @@ img {
     width: 10vw;
 }
 
-
+/* footer */
 .content ul {
     display: flex;
     flex-wrap: wrap;
@@ -200,6 +188,7 @@ footer {
     flex-wrap: wrap;
 }
 
+/* Add media query for 768px width */
 @media screen and (max-width: 768px) {
     .main-pic, .secondary-pic {
         width: 100%;
