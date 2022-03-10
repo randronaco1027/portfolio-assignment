@@ -238,4 +238,8 @@ footer {
         padding-right: 0;
         margin-right: 0;
     }
+
+    .avatar {
+        width: 40%;
+    }
 }
