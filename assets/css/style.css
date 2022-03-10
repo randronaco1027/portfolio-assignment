@@ -95,7 +95,7 @@ body {
     width: 20%;
     float: left;
     border-left: 5px solid black;
-    padding-left: 10px;
+    padding: 10px 0 0 10px;
     position: relative;
 }
 
