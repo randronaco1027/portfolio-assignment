@@ -221,4 +221,21 @@ footer {
         text-align: center;
         margin: auto;
     }
+
+    .smaller {
+        flex-direction: column;
+    }
+
+    .smaller .container {
+        width: 100%;
+    }
+
+    .smaller .container .img-text {
+        width: 20%;
+    }
+    .secondary-pic {
+        width: 100%;
+        padding-right: 0;
+        margin-right: 0;
+    }
 }
