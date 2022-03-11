@@ -23,4 +23,9 @@ The portfolio features:
 ![preview of portfolio](./assets/images/portfolio-preview.png)
 
 ## Preview of the Portfolio with Media Query
-![preview of media query](./assets/images/media-query.png)
+![preview of media query](./assets/images/media-query-1.png)
+
+![second preview of media query](./assets/images/media-query-2.png)
+
+## Website URL
+https://randronaco1027.github.io/portfolio-assignment/ 
