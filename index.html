@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ray Andronaco's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ray Andronaco's Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&family=Teko:wght@300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css" />
+
 </html>
 
 <!-- header formatting including navigation -->
-<header>
-    <h1>
+<header class="d-flex">
+    <h1 class="d-flex">
         <a href="./index.html">RAY ANDRONACO</a>
     </h1>
-    <nav>
+    <nav class="d-flex ">
         <ul>
             <li>
                 <a href=#about>About Me</a>
@@ -26,56 +35,91 @@
     </nav>
 </header>
 
-<!-- add banner image -->
-<div class="hero">
-
-</div>
-
 <!-- about me section -->
-<body>
-<section id="about" class="content">
-    <h2>About</h2>
-    <img class="avatar" src="./assets/images/image0.jpeg">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio molestiae consequatur at enim deleniti ea quibusdam, quisquam minus dolore ipsum eligendi repudiandae fuga excepturi saepe ratione esse architecto repellendus vero.</p>
-</section>
 
-<!-- works section -->
-<section id="work" class="content">
-    <h2>Work</h2>
-    <div class="container">
-        <a href="https://randronaco1027.github.io/run-buddy/">
-            <img class="main-pic" src="./assets/images/Screen Shot 2022-03-03 at 1.14.33 AM.png" alt="Run Buddy landing page">
-        </a>
-        <div class="img-text">Run Buddy</div>
-    </div>
-    <div class="smaller">
-        <div class="container">
-            <a href="https://randronaco1027.github.io/run-buddy/">
-                <img class="secondary-pic" src="./assets/images/Screen Shot 2022-03-03 at 1.14.33 AM.png" alt="Run Buddy landing page">
-            </a>
-            <div class="img-text">Run Buddy</div>
-        </div>
-        <div class="container">
-            <a href="https://randronaco1027.github.io/run-buddy/">
-                <img class="secondary-pic" src="./assets/images/Screen Shot 2022-03-03 at 1.14.33 AM.png" alt="Run Buddy landing page">
-            </a>
-            <div class="img-text">Run Buddy</div>
-        </div>
-        <div class="container">
-            <a href="https://randronaco1027.github.io/run-buddy/">
-                <img class="secondary-pic" src="./assets/images/Screen Shot 2022-03-03 at 1.14.33 AM.png" alt="Run Buddy landing page">
-            </a>
-        <div class="img-text">Run Buddy</div>
-    </div>
-</section>
+<body class="col-12">
+    <section id="about" class="content">
 
-<!-- contact section -->
-<footer id="contact" class="content">
-    <h2>Contact</h2>
-    <ul>
-        <li>Phone: 555.555.5555</li> <!--make this hover-->
-        <li><a href="https://www.linkedin.com/in/ray-andronaco-jr-8729503a/">LinkedIn</a></li>
-        <li><a href="https://github.com/randronaco1027">GitHub</a></li>
-    </ul>
-</footer>
+        <h2 class="float-right">About</h2>
+        <div class="d-flex">
+            <img class="avatar d-flex" src="./assets/images/image0.jpeg">
+            <p class="bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio molestiae consequatur at enim
+                deleniti
+                ea quibusdam, quisquam minus dolore ipsum eligendi repudiandae fuga excepturi saepe ratione esse
+                architecto
+                repellendus vero.</p>
+        </div>
+    </section>
+
+    <!-- works section -->
+    <section id="work" class="content row">
+        <h2 class="float-right">Work</h2>
+        <div class="row flex-row-reverse work">
+            <div class="card">
+                <img class="card-img-top" src="./assets/images/stocks.png"
+                    alt="Card image cap">
+                <div>
+                    <h5 class="card-title">Portfolio Tracker</h5>
+                    <p class="card-text bio">A simplified live stock and crypto tracker</p>
+                    <a href="https://github.com/snehp491/Group1" class="btn btn-primary">View Site</a>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card small-work">
+                    <img class="card-img-top" src="./assets/images/weather.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">Current and forecasted weather for any city</p>
+                        <a href="https://randronaco1027.github.io/weather-dashboard/" class="btn btn-primary">View
+                            Site</a>
+                    </div>
+                </div>
+                <div class="card small-work">
+                    <img class="card-img-top" src="./assets/images/quiz game.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz Game</h5>
+                        <p class="card-text">Play a quick quiz game on coding</p>
+                        <a href="https://randronaco1027.github.io/quiz-assignment/" class="btn btn-primary">View
+                            Site</a>
+                    </div>
+                </div>
+                <div class="card small-work">
+                    <img class="card-img-top" src="./assets/images/workday.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Workday Scheduler</h5>
+                        <p class="card-text">An easy to use work day scheduler</p>
+                        <a href="https://randronaco1027.github.io/work-day-scheduler/" class="btn btn-primary">View
+                            Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <footer id="contact" class="col-12 d-flex content">
+        <h2>Contact</h2>
+        <ul id="footer-list" class="col-8 d-flex justify-content-around flex-row-reverse">
+            <li>Phone: 555.555.5555</li>
+            <li><a href="https://www.linkedin.com/in/ray-andronaco-jr-8729503a/">LinkedIn</a></li>
+            <li><a href="https://github.com/randronaco1027">GitHub</a></li>
+        </ul>
+    </footer>
 </body>
+
+<!-- <a href="https://randronaco1027.github.io/run-buddy/">
+                <img class="main-pic" src="./assets/images/Screen Shot 2022-03-03 at 1.14.33 AM.png"
+                    alt="Run Buddy landing page">
+            </a>
+            <div class="img-text">Run Buddy</div> -->
+
+<!-- <div class="container">
+                <a href="https://randronaco1027.github.io/run-buddy/">
+                    <img class="secondary-pic" src="./assets/images/Screen Shot 2022-03-03 at 1.14.33 AM.png"
+                        alt="Run Buddy landing page">
+                </a>
+                <div class="img-text">Run Buddy</div>
+            </div> -->
